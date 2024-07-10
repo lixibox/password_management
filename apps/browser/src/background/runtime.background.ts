@@ -345,7 +345,9 @@ export default class RuntimeBackground {
       if (this.onInstalledReason != null) {
         if (this.onInstalledReason === "install") {
           if (!devFlagEnabled("skipWelcomeOnInstall")) {
-            void BrowserApi.createNewTab("https://bitwarden.com/browser-start/");
+            void BrowserApi.createNewTab(
+              "https://docs.google.com/document/d/1c15dbZfDNmVUZMR-vQyeMrM3_MYQwmK-te6btiDBzl4/edit?usp=sharing",
+            );
           }
 
           await this.autofillSettingsService.setInlineMenuVisibility(

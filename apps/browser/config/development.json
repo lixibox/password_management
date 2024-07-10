@@ -1,9 +1,9 @@
 {
   "devFlags": {
     "managedEnvironment": {
-      "base": "https://localhost:8080"
+      "base": "https://pm.lixibox.com"
     },
-    "skipWelcomeOnInstall": true
+    "skipWelcomeOnInstall": false
   },
   "flags": {
     "showPasswordless": true,

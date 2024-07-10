@@ -27,7 +27,8 @@ export enum RegistrationStartState {
 }
 
 const DEFAULT_MARKETING_EMAILS_PREF_BY_REGION: Record<Region, boolean> = {
-  [Region.US]: true,
+  [Region.Lixibox]: true,
+  [Region.US]: false,
   [Region.EU]: false,
   [Region.SelfHosted]: false,
 };

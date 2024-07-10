@@ -1,6 +1,10 @@
 {
   "flags": {
     "enableCipherKeyEncryption": true,
-    "accountSwitching": true
+    "accountSwitching": true,
+    "skipWelcomeOnInstall": false,
+    "managedEnvironment": {
+      "base": "https://pm.lixibox.com"
+    }
   }
 }

@@ -82,6 +82,20 @@ export const USER_CLOUD_REGION_KEY = new UserKeyDefinition<CloudRegion>(
  */
 export const PRODUCTION_REGIONS: RegionConfig[] = [
   {
+    key: Region.Lixibox,
+    domain: "lixibox",
+    urls: {
+      base: "https://pm.lixibox.com",
+      api: "",
+      identity: "",
+      icons: "",
+      webVault: "",
+      notifications: "",
+      events: "",
+      scim: "",
+    },
+  },
+  {
     key: Region.US,
     domain: "bitwarden.com",
     urls: {
@@ -114,7 +128,7 @@ export const PRODUCTION_REGIONS: RegionConfig[] = [
 /**
  * The default region when starting the app.
  */
-const DEFAULT_REGION = Region.US;
+const DEFAULT_REGION = Region.Lixibox;
 
 /**
  * The default region configuration.

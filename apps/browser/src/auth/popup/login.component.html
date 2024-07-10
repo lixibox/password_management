@@ -69,12 +69,15 @@
           <span> <i class="bwi bwi-mobile"></i> {{ "loginWithDevice" | i18n }} </span>
         </button>
       </div>
-      <button type="button" (click)="launchSsoBrowser()" class="btn block">
-        <i class="bwi bwi-provider" aria-hidden="true"></i> {{ "enterpriseSingleSignOn" | i18n }}
-      </button>
-      <div class="small">
-        <p class="no-margin">{{ "loggingInAs" | i18n }} {{ loggedEmail }}</p>
-        <a routerLink="/home">{{ "notYou" | i18n }}</a>
+      <!-- <button type="button" (click)="launchSsoBrowser()" class="btn block"> -->
+      <!--   <i class="bwi bwi&#45;provider" aria&#45;hidden="true"></i> {{ "enterpriseSingleSignOn" | i18n }} -->
+      <!-- </button> -->
+      <div class="small text-center top-15">
+        <p>
+          {{ "loggingInAs" | i18n }}
+          <span class="font-weight-semibold">{{ loggedEmail }}</span>
+        </p>
+        <a routerLink="/home" class="top-15 font-weight-semibold">{{ "notYou" | i18n }}</a>
       </div>
     </div>
   </main>

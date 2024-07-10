@@ -25,5 +25,9 @@
     "test:coverage": "jest --coverage --coverageDirectory=coverage",
     "test:watch": "jest --watch",
     "test:watch:all": "jest --watchAll"
+  },
+  "dependencies": {
+    "@bitwarden/browser": "file:",
+    "cross-env": "^7.0.3"
   }
 }

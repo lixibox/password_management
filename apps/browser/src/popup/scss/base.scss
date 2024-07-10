@@ -435,6 +435,11 @@ app-root {
   width: 100%;
   height: 100%;
   z-index: 980;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='500' preserveAspectRatio='none' viewBox='0 0 1440 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1082%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c39 C 96%2c52.6 288%2c100.6 480%2c107 C 672%2c113.4 768%2c74.8 960%2c71 C 1152%2c67.2 1344%2c84.6 1440%2c88L1440 500L0 500z' fill='rgba(176%2c 176%2c 176%2c 0.5)'%3e%3c/path%3e%3cpath d='M 0%2c322 C 96%2c304.4 288%2c241.8 480%2c234 C 672%2c226.2 768%2c292 960%2c283 C 1152%2c274 1344%2c207.8 1440%2c189L1440 500L0 500z' fill='rgba(88%2c 88%2c 88%2c 0.5)'%3e%3c/path%3e%3cpath d='M 0%2c418 C 96%2c406.2 288%2c345.6 480%2c359 C 672%2c372.4 768%2c479.8 960%2c485 C 1152%2c490.2 1344%2c405 1440%2c385L1440 500L0 500z' fill='rgba(0%2c 0%2c 0%2c 0.5)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1082'%3e%3crect width='1440' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
   @include themify($themes) {
     background-color: themed("backgroundColor");
   }
@@ -456,6 +461,10 @@ main:not(popup-page main) {
   right: 0;
   overflow-y: auto;
   overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='500' preserveAspectRatio='none' viewBox='0 0 1440 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1082%26quot%3b)' fill='none'%3e%3cpath d='M 0%2c39 C 96%2c52.6 288%2c100.6 480%2c107 C 672%2c113.4 768%2c74.8 960%2c71 C 1152%2c67.2 1344%2c84.6 1440%2c88L1440 500L0 500z' fill='rgba(176%2c 176%2c 176%2c 0.5)'%3e%3c/path%3e%3cpath d='M 0%2c322 C 96%2c304.4 288%2c241.8 480%2c234 C 672%2c226.2 768%2c292 960%2c283 C 1152%2c274 1344%2c207.8 1440%2c189L1440 500L0 500z' fill='rgba(88%2c 88%2c 88%2c 0.5)'%3e%3c/path%3e%3cpath d='M 0%2c418 C 96%2c406.2 288%2c345.6 480%2c359 C 672%2c372.4 768%2c479.8 960%2c485 C 1152%2c490.2 1344%2c405 1440%2c385L1440 500L0 500z' fill='rgba(0%2c 0%2c 0%2c 0.5)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1082'%3e%3crect width='1440' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 
   @include themify($themes) {
     background-color: themed("backgroundColor");

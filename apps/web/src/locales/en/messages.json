@@ -628,7 +628,7 @@
     "message": "No"
   },
   "loginOrCreateNewAccount": {
-    "message": "Log in or create a new account to access your secure vault."
+    "message": "Log in with lixibox email your.email@lixibox.com"
   },
   "loginWithDevice": {
     "message": "Log in with device"
@@ -8523,6 +8523,6 @@
   },
   "noInvoicesToList": {
     "message": "There are no invoices to list",
-    "description": "A paragraph on the Billing History page of the Provider Portal letting users know they can download a CSV report for their invoices that does not include prorations."    
+    "description": "A paragraph on the Billing History page of the Provider Portal letting users know they can download a CSV report for their invoices that does not include prorations."
   }
 }

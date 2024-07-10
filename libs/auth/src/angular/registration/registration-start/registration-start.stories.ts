@@ -73,6 +73,7 @@ const decorators = (options: {
               getRegion: () => options.defaultRegion || Region.US,
             } as Partial<Environment>),
             availableRegions: () => [
+              { key: Region.Lixibox, domain: "pm.lixibox.com", urls: {} },
               { key: Region.US, domain: "bitwarden.com", urls: {} },
               { key: Region.EU, domain: "bitwarden.eu", urls: {} },
             ],
